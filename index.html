@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday ❤️</title>
+
+<style>
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+    color:white;
+    font-family:Arial,sans-serif;
+    text-align:center;
+}
+
+h1{
+    font-size:3rem;
+}
+
+button{
+    padding:15px 30px;
+    border:none;
+    border-radius:10px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+#message{
+    margin-top:20px;
+    font-size:24px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Happy Birthday My Love ❤️</h1>
+
+<p>This website was made especially for you.</p>
+
+<button onclick="showWish()">Open Surprise</button>
+
+<div id="message"></div>
+
+<script>
+function showWish(){
+document.getElementById("message").innerHTML=
+"✨ You are the most beautiful part of my life. Happy Birthday! ❤️✨";
+}
+</script>
+
+</body>
+</html>
